@@ -61,17 +61,17 @@ namespace MyApp
 
                     if (WhoIsWin(number, player, FOF, SOF, TOF, FOS, SOS, TOS, FOT, SOT, TOT) == 1)
                     {
-                        Console.WriteLine("Player 1 has won!!!");
+                        Console.WriteLine("Player 1 win!!!");
                         break;
                     }
 
                     else if (WhoIsWin(number, player, FOF, SOF, TOF, FOS, SOS, TOS, FOT, SOT, TOT) == 2)
                     {
-                        Console.WriteLine("Player 2 has won!!!");
+                        Console.WriteLine("Player 2 win!!!");
                         break;
                     }
 
-                    else if (n == 9) Console.WriteLine("!!!   Noone has won   !!!");
+                    else if (n == 9) Console.WriteLine("!!!   Noone win   !!!");
 
 
                     if (player == 1) player = 2;
